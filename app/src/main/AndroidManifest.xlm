@@ -1,0 +1,64 @@
+### AndroidManifest.xml – Application Configuration
+
+The file defines the core configuration of the Android application.  
+It specifies required permissions, hardware features, and the activities (screens) available in the app.
+
+This manifest includes permissions for:
+
+- **Location** (`ACCESS_FINE_LOCATION`, `ACCESS_COARSE_LOCATION`) for GPS-based features.
+- **Internet** (`INTERNET`) to communicate with online services.
+- **Camera** (`CAMERA`) for image capture.
+- **Storage** (`READ_EXTERNAL_STORAGE`, `WRITE_EXTERNAL_STORAGE`) for file access on older Android versions.
+
+It also defines the **Google Maps API key**, the **main launch activity**, and other application screens such as login, registration, drone management, and settings.
+
+xml
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/background_image"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SafetyDrones"
+        tools:targetApi="31">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="YOUR_API_KEY_HERE"/>
+        <activity
+            android:name=".Main.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main.LoginActivity" />
+        <activity android:name=".Main.RegisterActivity"/>
+        <activity android:name=".Home.FirstPage"/>
+        <activity android:name=".Drones.AddDrone" />
+        <activity android:name=".Drones.MapaDrone"/>
+        <activity android:name=".Drones.InfoDrone"/>
+        <activity android:name=".Drones.EditDrone"/>
+        <activity android:name=".Config.EditPassword"/>
+    </application>
+
+</manifest>
