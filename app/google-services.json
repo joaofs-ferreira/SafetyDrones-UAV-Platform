@@ -1,0 +1,54 @@
+##About google-services.json
+
+This file is part of the Firebase configuration for the Android app.
+It contains public identifiers such as project ID and API keys required for the client application to communicate with Firebase services.
+No administrative credentials or private access keys are stored in this file.
+
+{
+  "project_info": {
+    "project_number": "280045476415",
+    "firebase_url": "https://safetydr0nes-default-rtdb.firebaseio.com",
+    "project_id": "safetydr0nes",
+    "storage_bucket": "safetydr0nes.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:280045476415:android:fd58561350b370d0f3768a",
+        "android_client_info": {
+          "package_name": "com.example.safetydrones"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "280045476415-qb08t7onur60bk3b597co5dn28k8letl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.safetydrones",
+            "certificate_hash": "c9280a0e319c0e398997c18df18a003264ec4529"
+          }
+        },
+        {
+          "client_id": "280045476415-aa54s9tf7hmjtu2ca099j0p987961ck3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgWocBncpzky65CAFf6SaX6Z6pCZ2RDEI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "280045476415-aa54s9tf7hmjtu2ca099j0p987961ck3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
