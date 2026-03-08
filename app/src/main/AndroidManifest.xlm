@@ -1,10 +1,9 @@
-### AndroidManifest.xml – Application Configuration
+### AndroidManifest.xml
 
 The file defines the core configuration of the Android application.  
 It specifies required permissions, hardware features, and the activities (screens) available in the app.
 
 This manifest includes permissions for:
-
 - **Location** (`ACCESS_FINE_LOCATION`, `ACCESS_COARSE_LOCATION`) for GPS-based features.
 - **Internet** (`INTERNET`) to communicate with online services.
 - **Camera** (`CAMERA`) for image capture.
