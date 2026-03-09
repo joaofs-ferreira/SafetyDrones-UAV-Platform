@@ -56,7 +56,7 @@
 
 | Close Zone Alert | Close Zone Alert (Details) |
 |----|----|
-| ![](docs/screenshots/Close Zone/maps_close_zone.png) | ![](docs/screenshots/Close Zone/maps_close_zone2.png) |
+| ![](docs/screenshots/Close_Zone/maps_close_zone.png) | ![](docs/screenshots/Close_Zone/maps_close_zone2.png) |
 
 ---
 
@@ -72,8 +72,8 @@
 
 | User Settings | Profile Configuration |
 |----|----|
-| ![](docs/screenshots/User Config/config_user.png) | ![](docs/screenshots/User Config/config_user2.png) |
+| ![](docs/screenshots/User_Config/config_user.png) | ![](docs/screenshots/User_Config/config_user2.png) |
 
 | Additional Settings |
 |----|
-| ![](docs/screenshots/User Config/config_user3.png) |
+| ![](docs/screenshots/User_Config/config_user3.png) |
