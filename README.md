@@ -46,10 +46,9 @@ Some parts of the project contain additional documentation:
 - `res/drawable` → graphical resources documentation
 - `assets/animations` → animation system documentation
 
-## Application Preview
-See the full application screenshots here:
+## Application Screenshots
+You can view all application screenshots here:
 [View Screenshots](docs/screenshots/README.md)
-
 Each  directory contains its own README with detailed explanations.
 
 ---
