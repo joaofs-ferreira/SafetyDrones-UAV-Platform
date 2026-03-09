@@ -38,6 +38,16 @@ The application was validated with real users and technical tests:
 * **Performance**: Fast loading times (1-3 seconds) and responsive interface.
 * **Reliability**: 100% success rate in functional requirement fulfillment.
 
+## Project Structure
+
+Some parts of the project contain additional documentation:
+
+- `res/layout` → UI structure documentation
+- `res/drawable` → graphical resources documentation
+- `assets/animations` → animation system documentation
+
+Each directory contains its own README with detailed explanations.
+
 ---
 **Author:** João Fernando da Silva Ferreira  
 **Supervisor:** José Braga de Vasconcelos  
