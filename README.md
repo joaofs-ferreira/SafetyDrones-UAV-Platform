@@ -46,7 +46,11 @@ Some parts of the project contain additional documentation:
 - `res/drawable` → graphical resources documentation
 - `assets/animations` → animation system documentation
 
-Each directory contains its own README with detailed explanations.
+## Application Preview
+See the full application screenshots here:
+[View Screenshots](docs/screenshots/README.md)
+
+Each  directory contains its own README with detailed explanations.
 
 ---
 **Author:** João Fernando da Silva Ferreira  
