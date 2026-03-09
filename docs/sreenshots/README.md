@@ -1,79 +1,88 @@
-## Application Preview
+# Application Screenshots
 
-### Login & Authentication
-
-| Initial Login | Login |
-|----|----|
-| ![](docs/screenshots/LoginPage/inicial_main_login.png) | ![](docs/screenshots/LoginPage/login.png) |
-
-| Register |
-|----|
-| ![](docs/screenshots/LoginPage/register.png) |
+This section presents a visual overview of the **SafetyDrones UAV Platform** interface.  
+The screenshots below illustrate the main features of the application, including drone management, map visualization, weather monitoring, and user configuration.
 
 ---
 
-### Main Page
+## Login & Authentication
 
-| Main Interface |
-|----|
-| ![](docs/screenshots/MainPage/New_page.png) |
-
----
-
-### Drone Management
-
-| Drone List | Insert Drone |
-|----|----|
-| ![](docs/screenshots/Drone/drones.png) | ![](docs/screenshots/Drone/insert_drone.png) |
-
-| Edit Drone | Drone Information |
-|----|----|
-| ![](docs/screenshots/Drone/edit_drones.png) | ![](docs/screenshots/Drone/info_drones.png) |
-
-| Drone Information (Details) |
-|----|
-| ![](docs/screenshots/Drone/info_drones2.png) |
+<p align="center">
+<img src="LoginPage/inicial_main_login.png" width="250">
+<img src="LoginPage/login.png" width="250">
+<img src="LoginPage/register.png" width="250">
+</p>
 
 ---
 
-### Maps & Flight Zones
+## Main Page
 
-| Map View | All Zones |
-|----|----|
-| ![](docs/screenshots/Maps/maps.png) | ![](docs/screenshots/Maps/all_zones_maps.png) |
-
-| Prohibited Zone | Restricted Zone |
-|----|----|
-| ![](docs/screenshots/Maps/prohibited_zone.png) | ![](docs/screenshots/Maps/restrict_zone.png) |
-
-| Free Flight Zones |
-|----|
-| ![](docs/screenshots/Maps/free_zones.png) |
+<p align="center">
+<img src="MainPage/New_page.png" width="300">
+</p>
 
 ---
 
-### Close Zone Detection
+## Drone Management
 
-| Close Zone Alert | Close Zone Alert (Details) |
-|----|----|
-| ![](docs/screenshots/Close_Zone/maps_close_zone.png) | ![](docs/screenshots/Close_Zone/maps_close_zone2.png) |
+<p align="center">
+<img src="Drone/drones.png" width="250">
+<img src="Drone/insert_drone.png" width="250">
+</p>
+
+<p align="center">
+<img src="Drone/edit_drones.png" width="250">
+<img src="Drone/info_drones.png" width="250">
+</p>
+
+<p align="center">
+<img src="Drone/info_drones2.png" width="250">
+</p>
 
 ---
 
-### Weather Forecast
+## Maps & Flight Zones
 
-| Weather Information |
-|----|
-| ![](docs/screenshots/Tempo/weather.png) |
+<p align="center">
+<img src="Maps/maps.png" width="250">
+<img src="Maps/all_zones_maps.png" width="250">
+</p>
+
+<p align="center">
+<img src="Maps/prohibited_zone.png" width="250">
+<img src="Maps/restrict_zone.png" width="250">
+</p>
+
+<p align="center">
+<img src="Maps/free_zones.png" width="250">
+</p>
 
 ---
 
-### User Configuration
+## Weather Monitoring
 
-| User Settings | Profile Configuration |
-|----|----|
-| ![](docs/screenshots/User_Config/config_user.png) | ![](docs/screenshots/User_Config/config_user2.png) |
+<p align="center">
+<img src="Tempo/weather.png" width="250">
+</p>
 
-| Additional Settings |
-|----|
-| ![](docs/screenshots/User_Config/config_user3.png) |
+---
+
+## Nearby Restricted Zones
+
+<p align="center">
+<img src="Close_Zone/maps_close_zone.png" width="250">
+<img src="Close_Zone/maps_close_zone2.png" width="250">
+</p>
+
+---
+
+## User Configuration
+
+<p align="center">
+<img src="User_Config/config_user.png" width="250">
+<img src="User_Config/config_user2.png" width="250">
+</p>
+
+<p align="center">
+<img src="User_Config/config_user3.png" width="250">
+</p>
