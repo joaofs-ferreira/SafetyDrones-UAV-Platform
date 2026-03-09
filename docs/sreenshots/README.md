@@ -8,7 +8,7 @@ The screenshots below illustrate the main features of the application, including
 ## Login & Authentication
 
 <p align="center">
-<img src="LoginPage/inicial_main_login.png" width="250">
+<img src="https://github.com/joaofs-ferreira/SafetyDrones-UAV-Platform/blob/main/docs/sreenshots/LoginPage/incial_page_login.png" width="250">
 <img src="LoginPage/login.png" width="250">
 <img src="LoginPage/register.png" width="250">
 </p>
@@ -18,7 +18,7 @@ The screenshots below illustrate the main features of the application, including
 ## Main Page
 
 <p align="center">
-<img src="MainPage/New_page.png" width="300">
+<img src="https://github.com/joaofs-ferreira/SafetyDrones-UAV-Platform/blob/main/docs/sreenshots/MainPage/News_page.png" width="300">
 </p>
 
 ---
@@ -27,11 +27,11 @@ The screenshots below illustrate the main features of the application, including
 
 <p align="center">
 <img src="Drone/drones.png" width="250">
-<img src="Drone/insert_drone.png" width="250">
+<img src="Drone/insert_drone.pn" width="250">
 </p>
 
 <p align="center">
-<img src="Drone/edit_drones.png" width="250">
+<img src="https://github.com/joaofs-ferreira/SafetyDrones-UAV-Platform/blob/main/docs/sreenshots/Drone/edit_drone.png" width="250">
 <img src="Drone/info_drones.png" width="250">
 </p>
 
@@ -54,7 +54,7 @@ The screenshots below illustrate the main features of the application, including
 </p>
 
 <p align="center">
-<img src="Maps/free_zones.png" width="250">
+<img src="https://github.com/joaofs-ferreira/SafetyDrones-UAV-Platform/blob/main/docs/sreenshots/Maps/free_zone.png" width="250">
 </p>
 
 ---
