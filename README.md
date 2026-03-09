@@ -48,7 +48,7 @@ Some parts of the project contain additional documentation:
 
 ## Application Screenshots
 You can view all application screenshots here:
-[View Screenshots](docs/screenshots/README.md)
+[View Screenshots](https://github.com/joaofs-ferreira/SafetyDrones-UAV-Platform/blob/main/docs/sreenshots/README.md)
 Each  directory contains its own README with detailed explanations.
 
 ---
